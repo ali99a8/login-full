@@ -1,0 +1,54 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 360px;
+  height: 450px;
+  margin-top: 80px;
+  background-color: #dedede;
+  border-radius: 5px;
+  box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+}
+.container .form {
+  position: relative;
+  margin-top: 50px;
+}
+.container label {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.container input {
+  font-size: 15px;
+  padding: 8px 6px;
+  display: block;
+  width: 300px;
+  margin: auto;
+  border: none;
+  outline: none;
+  
+}
+.container input:focus{
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+.container .btn {
+  font-size: 18px;
+  
+}
+.container .email-error,
+.pass-error {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 4px;
+  color: red;
+  padding: 5px 0px;
+  word-spacing: 2px;
+  display: none;
+  
+  
+}
